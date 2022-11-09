@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #020021;
+
+}
+body {
+    font-family: 'Inter', sans-serif;
     width: 100%;
 }
 
@@ -36,14 +43,7 @@ li:hover{
     padding: 10px 25px;
 }
 
-a{
-    text-decoration: none;
-    color:white;
-}
 
-body{
-    background-color: #020021;
-}
 
 
 
