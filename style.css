@@ -7,14 +7,11 @@
     background-color: #020021;
 
 }
+
 body {
     font-family: 'Inter', sans-serif;
     width: 100%;
 }
-
-/*body{
-    background-color: #020021;
-}*/
 
 .hamburger-menu{
     background-color: #00F482;
@@ -43,6 +40,14 @@ li:hover{
     padding: 10px 25px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ i{
+    background-color: #00F482;
+ }
 
 
 
@@ -78,3 +83,16 @@ li:hover{
     right: 0;
     top: 6px
    } 
+
+   .domboom-img{
+    width: 100%;
+    padding: 20px 10px;
+   }
+
+   h1{
+    color: white;
+   }
+   
+   p{
+    color: #5B5573;
+   }
