@@ -2,6 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
+}
+
+/*body{
+    background-color: #020021;
+}*/
+
+.hamburger-menu{
+    background-color: #00F482;
+    border-radius: 29px;
+    padding: 10px;
+}
+
+.nav{
+    position: relative;
+}
+
+.list{
+    display: none;
+    flex-direction: column;
+    background-color: #020021;
+    color: white;
+    padding: 10px 25px;
+    list-style: none;
+    gap: 15px;
+    position: absolute;
+
+}
+li:hover{
+    cursor: pointer;
+    background-color: gray;
+    padding: 10px 25px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
 
 body{
