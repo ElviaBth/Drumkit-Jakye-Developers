@@ -17,7 +17,7 @@ body {
 header{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5%;
 }
 
 
@@ -29,7 +29,7 @@ header{
 
 .img-title {
     text-align: center;
-    margin: 20px 0;
+    margin: 5% 0;
     
 }
 
@@ -48,7 +48,7 @@ header{
     position: absolute;
     z-index: 1;
     top: 100%;
-    left: -120%;
+    left: -290%;
 }
 
 .list-item{
@@ -78,27 +78,22 @@ a{
 
 h1 {
     color: white;
-
 }
 
-p {
+.main-paragraph{
     color: #5B5573;
-  
+    margin-bottom: 0;
+    font-size: 0.7rem;
 }
 
-div {
-    margin-left: 60px;
-    
-}
-.btn {
-    background-color: #00f482;
+
+.btn1{
     color: white;
-    padding: 10px;
+    background-color: #00f482;
     border-radius: 29px;
-    margin-top: 7px;
-
+    padding: 2.5% 10%;
+    border: 0;
 }
-
 
  .gg-menu-right-alt {
     box-sizing: border-box;
@@ -248,12 +243,6 @@ h1{
 
 }
    
-.main-paragraph{
-    color: #5B5573;
-    margin-bottom: 0;
-    font-size: 0.7rem;
-}
-
 footer{
     display: flex;
     flex-direction: column;
@@ -280,15 +269,10 @@ h2{
     font-size: 0.6rem;
 }
 
-.btn1{
+.btn2{
   background-color: white;
   border-radius: 29px;
   color: black;
   font-weight: bold;
   padding: 1.5% 8%;
-}
-
-.btn2{
-    padding: 2.5% 10%;
-    border: 0;
 }
