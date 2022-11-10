@@ -48,11 +48,13 @@ header{
     position: absolute;
     z-index: 1;
     top: 100%;
-    left: 15%;
+    left: -120%;
 }
 
 .list-item{
     background-color: rgba(2, 0, 33, 0.1 );
+    padding:10px 100px;
+    
 }
 
 .list-item:hover{
