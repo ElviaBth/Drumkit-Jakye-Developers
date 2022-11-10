@@ -29,7 +29,8 @@ header{
 
 .img-title {
     text-align: center;
-    margin-top: 40px;
+    margin: 20px 0;
+    
 }
 
 .nav{
@@ -40,12 +41,23 @@ header{
 .list{
     display: none;
     flex-direction: column;
-    background-color: rgba(2, 0, 33, 0.1 );
+    background-color: rgba(2, 0, 33, 0.8 );
     color: white;
     list-style: none;
-    gap: 15px;
+    gap: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 15%;
 }
 
+.list-item{
+    background-color: rgba(2, 0, 33, 0.1 );
+}
+
+.list-item:hover{
+    color: #00f482;
+}
 
 a{
     text-decoration: none;
@@ -58,18 +70,18 @@ a{
     background-color: #00F482;
     align-self: flex-end;
     left: 15px;
+    color: white;
  }
 
 
 h1 {
     color: white;
-    margin-left: 60px;
+
 }
 
 p {
     color: #5B5573;
-    margin-left: 60px;
-    margin-top: 10px;
+  
 }
 
 div {
@@ -124,6 +136,7 @@ div {
 
 .sound-box{
     position: relative;
+    width: 100%;
     
 }
 
@@ -142,7 +155,7 @@ picture{
     width: 25%;
     height: 30%;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255,0);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -152,7 +165,7 @@ picture{
     width: 15%;
     height: 20%;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255,0);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -161,49 +174,49 @@ picture{
 
 .bombo{
     position: absolute;
-    left: 15%;
+    right: 60%;
     bottom: 20%;
 }
 
 .crash{
     position: absolute;
-    left: 60%;
+    right: 14%;
     bottom: 20%;
 }
 
 .redoblante{
     position: absolute;
-    left: 50%;
+    right: 50%;
     bottom: 52.5%;
 }
 
 .hit-hat{
     position: absolute;
-    left: 25%;
+    right: 25%;
     bottom: 52.5%;
 }
 
 .tom1{
     position: absolute;
-    left: 11.5%;
+    right: 12.5%;
     bottom: 50%;
 }
 
 .tom2{
     position: absolute;
-    left: 72%;
+    right: 74%;
     bottom: 50%;
 }
 
 .tom3{
     position: absolute;
-    left: 5%;
+    right: 6%;
     bottom: 69%;
 }
 
 .tom4{
     position: absolute;
-    left: 78.5%;
+    right: 79%;
     bottom: 69%;
 }
 
