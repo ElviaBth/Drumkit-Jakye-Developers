@@ -8,7 +8,29 @@ body{
     background-color: #020021;
 }
 
+h1 {
+    color: white;
+    margin-left: 60px;
+}
 
+p {
+    color: #5B5573;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+div {
+    margin-left: 60px;
+    
+}
+.btn {
+    background-color: #00f482;
+    color: white;
+    padding: 10px;
+    border-radius: 29px;
+    margin-top: 7px;
+
+}
 
 
  .gg-menu-right-alt {
