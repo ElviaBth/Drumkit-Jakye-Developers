@@ -12,15 +12,25 @@ body {
     font-family: 'Inter', sans-serif;
     width: 100%;
 }
-
 .hamburger-menu{
     background-color: #00F482;
     border-radius: 29px;
-    padding: 10px;
+    padding: 15px 10px;
+    align-self: flex-end;
+
+    
+}
+
+.img-title {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .nav{
     position: relative;
+    float: right;
+    float: initial;
+    display: flex;
 }
 
 .list{
@@ -28,10 +38,8 @@ body {
     flex-direction: column;
     background-color: #020021;
     color: white;
-    padding: 10px 25px;
     list-style: none;
     gap: 15px;
-    position: absolute;
 
 }
 li:hover{
