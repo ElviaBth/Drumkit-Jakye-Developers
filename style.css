@@ -84,6 +84,39 @@ a{
     top: 6px
    } 
 
+.audio-sound{
+    display: none;
+}
+
+.sound-box{
+    position: relative;
+    width: 100%;
+}
+
+.crash, .bombo, .redoblante, .hit-hat{
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tom1, .tom2, .tom3, .tom4{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
    .domboom-img{
     width: 100%;
     padding: 20px 10px;
