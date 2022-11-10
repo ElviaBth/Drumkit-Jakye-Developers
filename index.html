@@ -19,36 +19,37 @@
                 <li class="list-item">Premiun</li>
                 <li class="list-item">Help</li>
                 <li class="list-item">Download</li>
+                <li class="list-item">Sign Up</li>
                 <li class="list-item">Log In</li>
             </ul>
         </nav>
         <figure class="img-title">
-            <img src="./assets/images/logo.png" alt="Logo Hit the Domboom">
+            <img class="logo" src="./assets/images/logo.png" alt="Logo Hit the Domboom">
         </figure>
     </header>
     
     <main>
-       <picture>
-            <source media="(min-width:1000px)" srcset="./assets/images/drumkit-desktop.png" />
-            <img class="domboom-img" src="./assets/images/drumkit-mobile.png" alt="Electronic Drum">
-        </picture>
         <section class="sound-box">
-        <div class="bombo" onclick="hitTheDom('bombo')">B</div>
-        <div class="crash" onclick="hitTheDom('crash')">C</div>
-        <div class="hit-hat" onclick="hitTheDom('hit-hat')">H</div>
-        <div class="redoblante" onclick="hitTheDom('redoblante')">R</div>
-        <div class="tom1" onclick="hitTheDom('tom1')">t1</div>
-        <div class="tom2" onclick="hitTheDom('tom2')">t2</div>
-        <div class="tom3" onclick="hitTheDom('tom3')">t3</div>
-        <div class="tom4" onclick="hitTheDom('tom4')">t4</div>
-        <audio class="audio-sound" id="crashSound" src="./assets/sound/crash.wav"></audio>
-        <audio class="audio-sound" id="bomboSound" src="./assets/sound/bombo (1).wav"></audio>
-        <audio class="audio-sound" id="hitHatSound" src="./assets/sound/hit-hat.wav"></audio>
-        <audio class="audio-sound" id="redoblanteSound" src="./assets/sound/redoblante.wav"></audio>
-        <audio class="audio-sound" id="tom1Sound" src="./assets/sound/tom1.wav"></audio>
-        <audio class="audio-sound" id="tom2Sound" src="./assets/sound/tom2.wav"></audio>
-        <audio class="audio-sound" id="tom3Sound" src="./assets/sound/tom3.wav"></audio>
-        <audio class="audio-sound" id="tom4Sound" src="./assets/sound/tom4.wav"></audio>
+            <picture>
+                <source  media=“(min-width:992px)” srcset=“./assets/images/drumkit-desktop.png” />
+                <img class="domboom-img" src="./assets/images/drumkit-mobile.png" alt="Electronic Drum" usemap="#soundmap">
+            </picture>
+            <div class="bombo cursor-shape" onclick="hitTheDom('bombo')"></div>
+            <div class="crash cursor-shape" onclick="hitTheDom('crash')"></div>
+            <div class="hit-hat cursor-shape" onclick="hitTheDom('hit-hat')"></div>
+            <div class="redoblante cursor-shape" onclick="hitTheDom('redoblante')"></div>
+            <div class="tom1 cursor-shape" onclick="hitTheDom('tom1')"></div>
+            <div class="tom2 cursor-shape" onclick="hitTheDom('tom2')"></div>
+            <div class="tom3 cursor-shape" onclick="hitTheDom('tom3')"></div>
+            <div class="tom4 cursor-shape" onclick="hitTheDom('tom4')"></div>
+            <audio class="audio-sound" id="crashSound" src="./assets/sound/crash.wav"></audio>
+            <audio class="audio-sound" id="bomboSound" src="./assets/sound/bombo (1).wav"></audio>
+            <audio class="audio-sound" id="hitHatSound" src="./assets/sound/hit-hat.wav"></audio>
+            <audio class="audio-sound" id="redoblanteSound" src="./assets/sound/redoblante.wav"></audio>
+            <audio class="audio-sound" id="tom1Sound" src="./assets/sound/tom1.wav"></audio>
+            <audio class="audio-sound" id="tom2Sound" src="./assets/sound/tom2.wav"></audio>
+            <audio class="audio-sound" id="tom3Sound" src="./assets/sound/tom3.wav"></audio>
+            <audio class="audio-sound" id="tom4Sound" src="./assets/sound/tom4.wav"></audio>
         </section>
     
         <h1>Music for<br> everyone.</h1>
