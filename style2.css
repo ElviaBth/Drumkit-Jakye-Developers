@@ -4,13 +4,11 @@
 body{
     background-color: #020021;
 }
-div{
+.d{
     padding: 80px; 
 }
 
-
-
-p {
+.pp {
     color: rgb(255, 255, 255);
     font-size: 14PX;
 }
@@ -25,7 +23,7 @@ p{
     color: #5b5573;
     
 }
-.btn{
+.btn1{
   border-radius: 29px;
   padding: 10px;
   color: black;

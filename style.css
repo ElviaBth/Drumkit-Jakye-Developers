@@ -145,18 +145,56 @@ div {
     align-items: center;
 }
 
-
-
-
-   .domboom-img{
+.domboom-img{
     width: 100%;
     padding: 20px 10px;
-   }
+}
 
-   h1{
+h1{
     color: white;
-   }
+}
    
-   p{
+p{
     color: #5B5573;
-   }
+}
+
+footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.d{
+
+    padding: 80px;
+   
+}
+
+.pp {
+    
+    font-size: 13PX;
+    color: #5b5573;
+    text-align: center;
+    margin-left: 0;
+}
+h2{
+    color: white;
+}
+
+
+.btn1{
+
+  background-color: white;
+  border-radius: 29px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+}
+.alt{
+    width: 350px;
+    height: 350px;
+}
