@@ -1,9 +1,13 @@
 
-
+html{
+    font-size: 62.5%;
+}
 
 body{
     background-color: #020021;
+    
 }
+
 .d{
     padding: 80px; 
 }
@@ -30,6 +34,7 @@ p{
   font-weight: bold;
   margin: 5px;
 }
+
 
 
 
