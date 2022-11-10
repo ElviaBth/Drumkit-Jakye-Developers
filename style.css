@@ -13,13 +13,18 @@ body {
     width: 100%;
 }
 
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
 .hamburger-menu{
     background-color: #00F482;
     border-radius: 29px;
-    padding: 15px 10px;
-    align-self: flex-end;
-
-    
+    padding: 10px 30px;
 }
 
 .img-title {
@@ -28,39 +33,57 @@ body {
 }
 
 .nav{
+    align-self: flex-end;
     position: relative;
-    float: right;
-    float: initial;
-    display: flex;
 }
 
 .list{
     display: none;
     flex-direction: column;
-    background-color: #020021;
+    background-color: rgba(2, 0, 33, 0.1 );
     color: white;
     list-style: none;
     gap: 15px;
-
 }
 
-li:hover{
-    cursor: pointer;
-    background-color: gray;
-    padding: 10px 25px;
-}
 
 a{
     text-decoration: none;
     color: white;
+    
 }
 
  i{
+    position: absolute;
     background-color: #00F482;
+    align-self: flex-end;
+    left: 15px;
  }
 
 
+h1 {
+    color: white;
+    margin-left: 60px;
+}
 
+p {
+    color: #5B5573;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+div {
+    margin-left: 60px;
+    
+}
+.btn {
+    background-color: #00f482;
+    color: white;
+    padding: 10px;
+    border-radius: 29px;
+    margin-top: 7px;
+
+}
 
 
  .gg-menu-right-alt {
