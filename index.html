@@ -10,9 +10,6 @@
 </head>
 <body>
     <header>
-        <figure>
-            <img src="./assets/images/logo.png" alt="Logo Hit the Domboom">
-        </figure>
         <nav class="nav">
             <div class="hamburger-menu"><a href="javascript:void(0);" onclick="myHMenu()"><i class="gg-menu-right-alt"></i></a></div>
             <ul class="list"  id="myHamburgerMenu">
@@ -23,12 +20,16 @@
                 <li>Log In</li>
             </ul>
         </nav>
+        <figure class="img-title">
+            <img src="./assets/images/logo.png" alt="Logo Hit the Domboom">
+        </figure>
     </header>
     
     <main>
-        <figure>
-            <img class="domboom-img" src="./assets/images/drumkit.png" alt="Electronic Drum">
-        </figure>
+        <picture>
+            <source media="(min-width:1000px)" srcset="./assets/images/drumkit-desktop.png" />
+            <img class="domboom-img" src="./assets/images/drumkit-mobile.png" alt="Electronic Drum">
+        </picture>
         <section class="sound-box">
         <div class="bombo" onclick="hitTheDom('bombo')">B</div>
         <div class="crash" onclick="hitTheDom('crash')">C</div>
@@ -47,7 +48,7 @@
         <audio class="audio-sound" id="tom3Sound" src="./assets/sound/tom3.wav"></audio>
         <audio class="audio-sound" id="tom4Sound" src="./assets/sound/tom4.wav"></audio>
         </section>
-
+       
         <h1>Music for everyone.</h1>
         <p>Millions of songs. No credit card needed.</p>
         <a href="#"><span>Hit the DOM</span></a>
