@@ -311,9 +311,11 @@ h2{
         width: 9.4rem;
         height: 2.4rem;
     }
+
     .hamburger-menu {
         display: none;
     }
+
     .list {
         display: flex;
        flex-direction: row;
@@ -333,6 +335,7 @@ h2{
     .list li:hover {
         color: var(--color-green);
     }
+
     .sign::after {
         content: "";
         background-color: var(--color-gray);
@@ -341,10 +344,12 @@ h2{
         height: 50%;
         width: 0.2rem;
     }
+
      main{
         display: flex;
         flex-direction: row-reverse;
         margin-top: 15rem;
+        height: 0;
      }
 
      .main-paragraph{
@@ -354,7 +359,6 @@ h2{
     .footer-picture{
         padding-bottom: 20%;
         display: none;
-       
     }
     
     footer{
