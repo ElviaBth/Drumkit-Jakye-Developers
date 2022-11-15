@@ -16,32 +16,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:var(--color-blue);
-    font-size: 16px;
-    
 }
-
-
 
 body {
     font-family:var(--letter) ;
+    font-size: 16px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    background-color:var(--color-blue);
 }
 
 
 header{
+    display: flex;
     flex-direction: column;
     padding: 1rem;
 }
-
 
 .hamburger-menu{
     background-color:var(--color-green);
     border-radius: 1.5rem;
     padding: 0.5rem 2rem;
-   
+    
 }
 
 .img-title {
@@ -50,11 +45,12 @@ header{
 }
 
 .logo{
-    width:9.4rem;
-    height: 2.4rem;
+    width: 55%;
+    height: 15%;
 }
 
 .nav{
+    display: flex;
     align-self: flex-end;
     position: relative;
 }
@@ -68,25 +64,20 @@ header{
     gap: 0.3rem;
     position: absolute;
     z-index: 1;
-    top: 100%;
-    left: -290%;
-}
+    top: 2.2rem;
+    right:0;
+} 
 
 .list-item{
     background-color: var(--color-shadow);
-    padding: 0.6rem 6.25rem;
-    
-}
-
-.list-item:hover{
-    color: var(--color-green);
+    padding: 0.7rem 32vw;   
 }
 
 a{
     text-decoration: none;
     color: var(--color-white);
     background-color: var(--color-green);
-    
+ 
 }
 
  i{
@@ -97,6 +88,14 @@ a{
     color: var(--color-white);
  }
 
+main{
+display: flex;
+flex-direction: column;
+align-content: flex-end;
+justify-content: center;
+align-items: center;
+ height: 70vh;
+}
 
 h1 {
     color: var(--color-white);
@@ -171,27 +170,22 @@ h1 {
     width: 100%;
     height: 100%;
     padding: 0.1rem 0.6rem 1.25rem;
-   }
+}
 
-.crash, .bombo, .redoblante, .hit-hat{
+.drums-instrument{
     width: 25%;
     height: 30%;
     border-radius: 50%;
     background-color:var(--color-none);
-   
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+
 }
-.tom1, .tom2, .tom3, .tom4{
+
+.tom-instrument{
     width: 15%;
     height: 20%;
     border-radius: 50%;
     background-color: var(--color-none);
-   
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -248,11 +242,11 @@ h1 {
 }
 
 .second-box{
-   
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 10% 0 20%;
+    padding: 0 1rem 0 2rem;
 }
 
 h1{
@@ -264,65 +258,26 @@ h1{
 }
    
 
-@media screen and (min-width: 600px) {
-
-    .img-title {
-       margin-left: -1000px;
-        float: left;
-    }
-    .hamburger-menu {
-        display: none;
-    }
-    .list {
-      
-       flex-direction: row;
-       padding: 50px;
-       margin-left: -700px;
-       gap: 40px;
-    }
-    .list li:hover {
-        color: var(--color-green);
-    }
-    .sign::after {
-        content: "";
-        background-color: var(--color-gray);
-        margin-left: 20px;
-        position: absolute;
-        height: 20%;
-        width: 2px;
-    }
-
-    main {
-    display: flex;
-    flex-direction: row-reverse;
-    }
-
-    .main-paragraph {
-        inline-size: 14rem;
-    }
-
-}
-
 footer{
-   
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 50% 10% 25%;
+    min-height: 100vh;
+    margin-top: 2rem;
 }
 
 .footer-picture{
-    padding-bottom: 20%;
+    margin-bottom: 4rem;
 }
 
 h2{
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .p-paragraph{
-    font-size: 13PX;
     color: var(--color-gray);
     text-align: center;
     margin-left: 0;
@@ -331,8 +286,73 @@ h2{
 
 .btn2{
   background-color: var(--color-white);
-  border-radius: 29px;
+  border-radius: 1.81rem;
   color: var(--color-black);
   font-weight: bold;
-  padding: 1.5% 8%;
+  padding: 0.5rem 0.8rem;
 }
+
+
+@media screen and (min-width: 600px) {
+
+    .img-title {
+        margin-top: 2rem;
+       margin-left: 15rem;
+        float: left;
+    }
+    .hamburger-menu {
+        display: none;
+    }
+    .list {
+        display: flex;
+       flex-direction: row;
+       padding: 0.2rem;
+       margin-left: 28rem;
+       gap: 0.3rem;
+       border: 0.2rem solid red;
+    }
+    
+    .list li:hover {
+        color: var(--color-green);
+    }
+    .sign::after {
+        content: "";
+        background-color: var(--color-green);
+        margin-left: 0.25rem;
+        position: absolute;
+        height: 50%;
+        width: 0.125px;
+    }
+    
+    .footer-picture{
+        padding-bottom: 20%;
+        display: none;
+       
+    }
+    
+    footer{
+        padding: 2em;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
