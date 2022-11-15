@@ -7,9 +7,9 @@
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
  
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/developer/assets/images/logo.png)
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-drumkit.png)
 
-##General-info
+## General info
 
 ***
 
@@ -18,9 +18,20 @@ Hit the Doom was born from the need for the user to have their first experience 
 The project is in process, the structure and functionality of the mobile is already in the unclose phase of development. In the next few days we will start adapting the code for desktop.
 
 
-##Technologies
+## Technologies
 
 ***
+
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-figma.png)
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-github.png)
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-slack.png)
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-trello.png)
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-visualc.png)
 
 A list of technologies used within the project:
 
@@ -28,15 +39,15 @@ A list of technologies used within the project:
 * [Trello](https://trello.com/b/uXh6SzoT/jakye-developers)
 * [GitHub](https://github.com/ElviaBth/Drumkit-Jakye-Developers) 
 
-##Installation
+## Installation
 
 ***
 
 * [GitHub] (https://github.com/ElviaBth/Drumkit-Jakye-Developers)
 
 
-##collaboration
+## Collaboration
 
 ***
 
-jakye developers with Factoria F5
+Jakye developers with Factoria F5
