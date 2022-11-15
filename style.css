@@ -342,9 +342,15 @@ h2{
         width: 0.2rem;
     }
      main{
+        display: flex;
+        flex-direction: row-reverse;
         margin-top: 15rem;
-        
      }
+
+     .main-paragraph{
+        inline-size: 14rem;
+     }
+
     .footer-picture{
         padding-bottom: 20%;
         display: none;
