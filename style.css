@@ -295,39 +295,70 @@ h2{
 
 @media screen and (min-width: 600px) {
 
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
     .img-title {
         margin-top: 2rem;
-       margin-left: 15rem;
-        float: left;
+       margin-left: 8rem;
+        
     }
+
+    .logo {
+        width: 9.4rem;
+        height: 2.4rem;
+    }
+
     .hamburger-menu {
         display: none;
     }
+
     .list {
         display: flex;
        flex-direction: row;
-       padding: 0.2rem;
-       margin-left: 28rem;
-       gap: 0.3rem;
-       border: 0.2rem solid red;
+       position: relative;
+       top: 0;
+       right: 0;
+       margin-bottom: 1.06rem;
+       padding-left: 0;
+    
+    }
+
+    .list-item {
+        padding: 1rem 3rem;
+        
     }
     
     .list li:hover {
         color: var(--color-green);
     }
+
     .sign::after {
         content: "";
-        background-color: var(--color-green);
-        margin-left: 0.25rem;
+        background-color: var(--color-gray);
+        margin-left: 3.5rem;
         position: absolute;
         height: 50%;
-        width: 0.125px;
+        width: 0.2rem;
     }
-    
+
+     main{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15rem;
+        height: 0;
+     }
+
+     .main-paragraph{
+        inline-size: 14rem;
+     }
+
     .footer-picture{
         padding-bottom: 20%;
         display: none;
-       
     }
     
     footer{
