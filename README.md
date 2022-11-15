@@ -5,11 +5,11 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+
  
 ![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-drumkit.png)
 
-## General info
+## General Info
 
 ***
 
@@ -25,13 +25,6 @@ The project is in process, the structure and functionality of the mobile is alre
 
 ![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-figma.png)
 
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-github.png)
-
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-slack.png)
-
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-trello.png)
-
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-visualc.png)
 
 A list of technologies used within the project:
 
