@@ -127,6 +127,7 @@ a{
     align-items: center;
     height: 70vh;
     padding: 0.1rem 0.6rem 1.25rem;
+    margin: auto;
 }
 
 .sound-box{
@@ -143,6 +144,7 @@ a{
     width: 100%;
     height: 100%;
     padding: 0;
+    max-width: 556px;
 }
 
 .audio-sound{
@@ -280,17 +282,19 @@ h2{
 
 
 @media screen and (min-width: 1024px) {
-    
+    header, main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
     header {
-        display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        padding: 0;
     }
 
     .img-title {
-        margin-top: 2rem;
-       margin-left: 6rem;
-        
+        margin-top: 2rem; 
     }
 
     .logo {
@@ -312,8 +316,7 @@ h2{
        margin-bottom: 3rem;
        margin-right: 10rem;
        padding-left: 0;
-       justify-content: space-between;
-       width: 40vw;
+       gap: 3rem;
        font-size: 0.85rem;
        background-color: var(--color-none);
     }
@@ -336,57 +339,63 @@ h2{
     }
 
      main{
-        display: flex;
         flex-direction: row-reverse;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: flex-start;
         align-content: center;
-        margin: 0 2rem 0rem 6rem;
         gap: 1rem;
-        min-height: 20vh;
+        padding: 0;
+        height: 517px;
      }
 
-     .main-paragraph{
-        font-size: 1rem;
-        inline-size: 20rem;
-        margin-bottom: 1rem;
+     .sound-box{
+        width: auto;
      }
 
-     h1 {
+    .main-picture{
+        height: 0;
+    }
+
+    .domboom-img{
+    max-width: 700px;
+    }
+
+    .second-box {
+        margin-top: 1rem;
+        padding: 0;
+    }      
+    
+    h1 {
         font-size: 3rem;
         inline-size: 15rem;
         overflow-wrap: break-word;
         margin-bottom: 1rem;
      }
 
+    .main-paragraph{
+        font-size: 1rem;
+        inline-size: 20rem;
+        margin-bottom: 1rem;
+     }
 
-    .second-box {
-        
-        margin-top: 1rem;
-
-    }      
-    
     .btn1 {
         padding: 0.5rem 2rem;
         font-size: 1rem;
         
     }
 
-    .footer-picture{
-       
-        display: none;
-    }
-    
     footer{
         padding: 0;
         min-height: 0;
         margin-top: 0;
-     
     }
 
+    .footer-picture{
+        display: none;
+    }
+    
     h2{
         font-size: 1.5rem;
-       
     }
 
     .p-paragraph{
