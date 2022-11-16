@@ -32,6 +32,10 @@ A list of technologies used within the project:
 * [Trello](https://trello.com/b/uXh6SzoT/jakye-developers)
 * [GitHub](https://github.com/ElviaBth/Drumkit-Jakye-Developers) 
 
+Language
+
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/language.png)
+
 ## Installation
 
 ***
