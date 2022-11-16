@@ -4,8 +4,9 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
+3. [Language](#language)
+4. [Installation](#installation)
+5. [Collaboration](#collaboration)
 
  
 ![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-drumkit.png)
@@ -33,7 +34,9 @@ A list of technologies used within the project:
 * [Trello](https://trello.com/b/uXh6SzoT/jakye-developers)
 * [GitHub](https://github.com/ElviaBth/Drumkit-Jakye-Developers) 
 
-Language
+## Language
+
+***
 
 ![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/language.png)
 
