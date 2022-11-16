@@ -38,7 +38,7 @@ A list of technologies used within the project:
 
 ***
 
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/language.png)
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/main/assets/images/readme/language.png)
 
 ## Installation
 
