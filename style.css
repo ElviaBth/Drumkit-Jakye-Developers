@@ -32,21 +32,14 @@ header{
     padding: 1rem;
 }
 
-.hamburger-menu{
-    background-color:var(--color-green);
-    border-radius: 1.5rem;
-    padding: 0.5rem 2rem;
-    
-}
-
 .img-title {
     text-align: center;
-    margin: 0.8rem 0;  
+    margin: 0.8rem 0 2rem 0;  
 }
 
 .logo{
-    width: 55%;
-    height: 15%;
+    width: 9.375rem;
+    height: 2.375rem;
 }
 
 .nav{
@@ -55,71 +48,7 @@ header{
     position: relative;
 }
 
-.list{
-    display: none;
-    flex-direction: column;
-    background-color: var(--color-shadow);
-    color: var(--color-white);
-    list-style: none;
-    gap: 0.3rem;
-    position: absolute;
-    z-index: 1;
-    top: 2.2rem;
-    right:0;
-} 
-
-.list-item{
-    background-color: var(--color-shadow);
-    padding: 0.7rem 32vw;   
-}
-
-a{
-    text-decoration: none;
-    color: var(--color-white);
-    background-color: var(--color-green);
- 
-}
-
- i{
-    position: absolute;
-    background-color: var(--color-green);
-    align-self: flex-end;
-    left: 0.93rem;
-    color: var(--color-white);
- }
-
-main{
-display: flex;
-flex-direction: column;
-align-content: flex-end;
-justify-content: center;
-align-items: center;
- height: 70vh;
-}
-
-h1 {
-    color: var(--color-white);
-    inline-size: 12.5rem;
-    overflow-wrap: break-word
-}
-
-.main-paragraph{
-    color: var(--color-gray);
-    margin-bottom: 0;
-    font-size: 0.7rem;
-    padding: 0.5rem 0 1rem 0; 
-}
-
-
-.btn1{
-    color: var(--color-white);
-    background-color: var(--color-green);
-    border-radius: 1.81rem;
-    padding: 0.9rem 2rem;
-    border: 0;
-}
-
- .gg-menu-right-alt {
+.gg-menu-right-alt {
     box-sizing: border-box;
     position: relative;
     display: block;
@@ -150,15 +79,60 @@ h1 {
     top: 6px
    } 
 
-.audio-sound{
+.hamburger-menu{
+    background-color:var(--color-green);
+    border-radius: 1.5rem;
+    padding: 0.5rem 2rem;
+    
+}
+
+.list{
     display: none;
-    height: 0;
+    flex-direction: column;
+    background-color: var(--color-shadow);
+    color: var(--color-white);
+    list-style: none;
+    gap: 0.3rem;
+    position: absolute;
+    z-index: 1;
+    top: 2.2rem;
+    right:0;
+} 
+
+.list-item{
+    background-color: var(--color-shadow);
+    padding: 0.7rem 35vw;   
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-green);
+ 
+}
+
+ i{
+    position: absolute;
+    background-color: var(--color-green);
+    align-self: flex-end;
+    left: 0.93rem;
+    color: var(--color-white);
+ }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 0.1rem 0.6rem 1.25rem;
+    margin: auto;
 }
 
 .sound-box{
     position: relative;
     width: 100%;
-    
 }
 
 .main-picture{
@@ -169,7 +143,13 @@ h1 {
 .domboom-img{
     width: 100%;
     height: 100%;
-    padding: 0.1rem 0.6rem 1.25rem;
+    padding: 0;
+    max-width: 556px;
+}
+
+.audio-sound{
+    display: none;
+    height: 0;
 }
 
 .drums-instrument{
@@ -177,7 +157,6 @@ h1 {
     height: 30%;
     border-radius: 50%;
     background-color:var(--color-none);
-
 }
 
 .tom-instrument{
@@ -185,9 +164,7 @@ h1 {
     height: 20%;
     border-radius: 50%;
     background-color: var(--color-none);
-
 }
-
 
 .bombo{
     position: absolute;
@@ -237,10 +214,6 @@ h1 {
     bottom: 69%;
 }
 
-.cursor-shape:hover{
-    cursor: grab;
-}
-
 .second-box{
     display: flex;
     flex-direction: column;
@@ -248,15 +221,30 @@ h1 {
     align-items: flex-start;
     padding: 0 1rem 0 2rem;
 }
-
-h1{
+  
+h1 {
     color: var(--color-white);
-    margin-bottom: 0;
+    inline-size: 12.5rem;
+    overflow-wrap: break-word;
+    margin: 1.5rem 0 0 0;
     font-size: 2.5rem;
     font-weight: bolder;
-
 }
-   
+
+.main-paragraph{
+    color: var(--color-gray);
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    padding: 0.5rem 0 1rem 0; 
+}
+
+.btn1{
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border-radius: 1.81rem;
+    padding: 0.9rem 2rem;
+    border: 0;
+}
 
 footer{
     display: flex;
@@ -293,23 +281,26 @@ h2{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
+    header, main {
+        max-width: 1200px;
+        margin: auto;
+    }
 
     header {
-        display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+        padding: 0;
     }
 
     .img-title {
-        margin-top: 2rem;
-       margin-left: 8rem;
-        
+        margin-top: 2rem; 
     }
 
     .logo {
-        width: 9.4rem;
-        height: 2.4rem;
+        width: 9.375rem;
+        height: 2.375rem;
+        
     }
 
     .hamburger-menu {
@@ -317,18 +308,23 @@ h2{
     }
 
     .list {
-        display: flex;
+       display: flex;
        flex-direction: row;
        position: relative;
        top: 0;
        right: 0;
-       margin-bottom: 1.06rem;
+       margin-bottom: 3rem;
+       margin-right: 10rem;
        padding-left: 0;
-    
+       gap: 3rem;
+       font-size: 0.85rem;
+       background-color: var(--color-none);
     }
 
     .list-item {
-        padding: 1rem 3rem;
+        padding: 0;
+        margin: 0;
+        background-color: var(--color-none);
         
     }
     
@@ -336,37 +332,77 @@ h2{
         color: var(--color-green);
     }
 
-    .sign::after {
-        content: "";
-        background-color: var(--color-gray);
-        margin-left: 3.5rem;
-        position: absolute;
-        height: 50%;
-        width: 0.2rem;
+    .sign {
+        color: var(--color-green);
+        border-right: 0.15rem solid var(--color-white);
+        padding-right: 3vw; 
     }
 
      main{
-        display: flex;
         flex-direction: row-reverse;
-        margin-top: 15rem;
-        height: 0;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: center;
+        gap: 1rem;
+        padding: 0;
+        height: 517px;
      }
 
-     .main-paragraph{
-        inline-size: 14rem;
+     .sound-box{
+        width: auto;
      }
+
+    .main-picture{
+        height: 0;
+    }
+
+    .domboom-img{
+    max-width: 700px;
+    }
+
+    .second-box {
+        margin-top: 1rem;
+        padding: 0;
+    }      
+    
+    h1 {
+        font-size: 3rem;
+        inline-size: 15rem;
+        overflow-wrap: break-word;
+        margin-bottom: 1rem;
+     }
+
+    .main-paragraph{
+        font-size: 1rem;
+        inline-size: 20rem;
+        margin-bottom: 1rem;
+     }
+
+    .btn1 {
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        
+    }
+
+    footer{
+        padding: 0;
+        min-height: 0;
+        margin-top: 0;
+    }
 
     .footer-picture{
-        padding-bottom: 20%;
         display: none;
     }
     
-    footer{
-        padding: 2em;
+    h2{
+        font-size: 1.5rem;
     }
 
-    h2{
-        font-size: 3rem;
+    .p-paragraph{
+         font-size: 0.9rem;
+    }
+    .btn2{
+        padding: 0.5rem 2rem;
     }
     
 }
