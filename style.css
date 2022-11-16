@@ -293,7 +293,7 @@ h2{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
 
     header {
         display: flex;
@@ -303,13 +303,14 @@ h2{
 
     .img-title {
         margin-top: 2rem;
-       margin-left: 8rem;
+       margin-left: 1rem;
         
     }
 
     .logo {
-        width: 9.4rem;
-        height: 2.4rem;
+        width: 15.06rem;
+        height: 3.81rem;
+        
     }
 
     .hamburger-menu {
@@ -322,27 +323,30 @@ h2{
        position: relative;
        top: 0;
        right: 0;
-       margin-bottom: 1.06rem;
+       margin-bottom: 3rem;
        padding-left: 0;
+       justify-content: space-between;
+       width: 60vw;
+       font-size: 1.125rem;
+       background-color: var(--color-none);
+      
     
     }
 
     .list-item {
-        padding: 1rem 3rem;
+        padding: 0;
+        margin: 0;
+        background-color: var(--color-none);
         
     }
     
     .list li:hover {
         color: var(--color-green);
     }
-
-    .sign::after {
-        content: "";
-        background-color: var(--color-gray);
-        margin-left: 3.5rem;
-        position: absolute;
-        height: 50%;
-        width: 0.2rem;
+    .sign {
+        border-right: 0.2rem solid var(--color-white);
+        padding-right: 5vw;
+       
     }
 
      main{
