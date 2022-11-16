@@ -293,32 +293,97 @@ h2{
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
     .img-title {
-       margin-left: -1000px;
-        float: left;
+        margin-top: 2rem;
+       margin-left: 8rem;
+        
     }
+
+    .logo {
+        width: 9.4rem;
+        height: 2.4rem;
+    }
+
     .hamburger-menu {
         display: none;
     }
+
     .list {
-      
+        display: flex;
        flex-direction: row;
-       padding: 50px;
-       margin-left: -700px;
-       gap: 40px;
+       position: relative;
+       top: 0;
+       right: 0;
+       margin-bottom: 1.06rem;
+       padding-left: 0;
+    
     }
+
+    .list-item {
+        padding: 1rem 3rem;
+        
+    }
+    
     .list li:hover {
         color: var(--color-green);
     }
+
     .sign::after {
         content: "";
         background-color: var(--color-gray);
-        margin-left: 20px;
+        margin-left: 3.5rem;
         position: absolute;
-        height: 20%;
-        width: 2px;
+        height: 50%;
+        width: 0.2rem;
     }
 
+     main{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15rem;
+        height: 0;
+     }
+
+     .main-paragraph{
+        inline-size: 14rem;
+     }
+
+    .footer-picture{
+        padding-bottom: 20%;
+        display: none;
+    }
+    
+    footer{
+        padding: 2em;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+    
 }
+
+
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
