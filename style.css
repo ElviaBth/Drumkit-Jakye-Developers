@@ -293,8 +293,14 @@ h2{
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
+    
+    body{
 
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
     header {
         display: flex;
         flex-direction: row-reverse;
@@ -385,19 +391,32 @@ h2{
     .btn1 {
         padding: 1.5rem 4rem;
         font-size: 1.25rem;
+        
     }
 
     .footer-picture{
-        padding-bottom: 20%;
+       
         display: none;
     }
     
     footer{
-        padding: 2em;
+        padding: 2rem;
+        min-height: 0;
+        margin-top: 15rem;
+     
     }
 
     h2{
-        font-size: 3rem;
+        font-size: 2.125rem;
+       
+    }
+
+
+    .p-paragraph{
+         font-size: 1.19rem;
+    }
+    .btn2{
+        padding: 1rem 3rem;
     }
     
 }
