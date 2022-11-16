@@ -23,7 +23,7 @@ The project is in process, the structure and functionality of the mobile is alre
 ***
 
 
-![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logo-figma.png)
+![Image text](https://github.com/ElviaBth/Drumkit-Jakye-Developers/blob/readme-creation/assets/images/readme/logos-tecnologies.png)
 
 
 A list of technologies used within the project:
