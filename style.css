@@ -352,13 +352,40 @@ h2{
      main{
         display: flex;
         flex-direction: row-reverse;
-        margin-top: 15rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 8rem;
+        margin-left: 6rem;
+        margin-right: 2em;
+        gap: 7rem;
         height: 0;
+    
      }
 
      .main-paragraph{
-        inline-size: 14rem;
+        font-size: 1.18rem;
+        inline-size: 30rem;
+        margin-bottom: 1rem;
      }
+
+     h1 {
+        font-size: 3.94rem;
+        inline-size: 30rem;
+        overflow-wrap: break-word;
+        margin-bottom: 1rem;
+     }
+
+
+    .second-box {
+        min-width: 30vw;
+        margin-top: 1rem;
+
+    }      
+    
+    .btn1 {
+        padding: 1.5rem 4rem;
+        font-size: 1.25rem;
+    }
 
     .footer-picture{
         padding-bottom: 20%;
